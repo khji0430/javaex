@@ -17,6 +17,7 @@ public class InputDemo {
     int x = in.nextInt();
     int y = in.nextInt();
 
+
     System.out.printf("당신이 입력한 숫자는 %d, %d 이고 그 둘을 곱한 결과는 %d 입니다.", x, y, x+y);
   }
 }
