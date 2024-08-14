@@ -24,6 +24,7 @@ public class MethodDemo4 {
 
     System.out.println(longAdd(long1, long2));
     System.out.println(longMin(long1, long2));
+
     System.out.println(add(a, b));
     System.out.println(minus(a, b));
     System.out.println(mul(a, b));
