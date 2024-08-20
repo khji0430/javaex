@@ -12,8 +12,13 @@ public class WithArrayDemo {
 
 
     long[] prices = new long[5];
-    long sum = 0L;
 
+
+
+    long sum = 0L;
+    for (long price : prices) {
+      sum += price;
+    }
 
     for (int i = 0; i < prices.length; i++) {
       System.out.print("휴대폰 가격을 입력하세요 : ");

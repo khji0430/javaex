@@ -1,5 +1,7 @@
 package objectPackage;
 
+import java.util.Arrays;
+
 public class ArraySearchDemo {
   public static void main(String[] args) {
 
@@ -20,5 +22,12 @@ public class ArraySearchDemo {
     } else{
       System.out.println(findIndex + " 번째 요소를 찾음");
     }
+
+    System.out.println("정렬하기 전 : " + Arrays.toString(numbers) );
+    Arrays.sort(numbers);
+    System.out.println("정렬하기 후 : " + Arrays.toString(numbers) );
+    int i = Arrays.binarySearch(numbers, 77);
+    System.out.println(i);
+
   }
 }
