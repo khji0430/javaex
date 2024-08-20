@@ -8,7 +8,7 @@ public class CopyDemo {
     System.out.println(ten);
 
 
-    Circle c1 = new Circle();  // 주소 0x100
+    Circle c1 = new Circle(1);  // 주소 0x100
     System.out.println(c1.getRadius());
     copyByReference(c1);
     System.out.println(c1.getRadius());

@@ -2,7 +2,7 @@ package objectPackage;
 
 public class CircleDemo {
   public static void main(String[] args) {
-      Circle c1 = new Circle();  // 생성자는 stack영역, 참조자는 c1
+      Circle c1 = new Circle(10);  // 생성자는 stack영역, 참조자는 c1
 
       double area;
 

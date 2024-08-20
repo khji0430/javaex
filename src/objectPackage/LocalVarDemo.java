@@ -6,8 +6,7 @@ public class LocalVarDemo {
     System.out.println(a);
 
     for (int i = 0; i < 10; i++) { // i 지역변수  불럭에서만 사용 밖에서 사용 X
-      int b =
-          10;
+      int b = 10;
       System.out.print(i);
     }
 

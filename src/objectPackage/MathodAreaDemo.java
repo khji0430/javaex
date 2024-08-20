@@ -4,7 +4,7 @@ public class MathodAreaDemo {
   public static void main(String[] args) {
     System.out.println(Math.PI);
 
-    Circle circle = new Circle();
+    Circle circle = new Circle(1);
     int r = circle.getRadius();
     double area = r * r * Math.PI;
 
