@@ -21,7 +21,6 @@ class Circle{
     }
 }
 
-
 class ColoredCircle extends Circle{
   String color;
 
