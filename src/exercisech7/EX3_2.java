@@ -18,7 +18,7 @@ public class EX3_2 {
         System.out.println("이 더 큽니다.");
         break;
       default:
-        
+        System.out.println("비교할 수 없습니다.");
     }
 
   }
