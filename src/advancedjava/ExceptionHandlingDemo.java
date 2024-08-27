@@ -13,6 +13,7 @@ public class ExceptionHandlingDemo {
     }
   }
 
+
   public static void method1() throws IllegalArgumentException, IOException{
     //throw new IllegalArgumentException();
     //System.out.println("예외 발생");
