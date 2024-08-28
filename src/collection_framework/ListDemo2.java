@@ -13,5 +13,9 @@ public class ListDemo2 {
     integers.add(40);
     integers.add(1,15);
     System.out.println(integers);
+    integers.forEach(i -> System.out.print(i + ""));
+    System.out.println("");
+    integers.removeIf(i -> i%10 != 0);
+    integers.forEach(i -> System.out.print(i + ""));
   }
 }
