@@ -14,6 +14,7 @@ public class StringDemo {
     for (int i = 0; i < 10; i++) {
       list.add(r.nextInt(30));
     }
+
     // 줄여서 사용 가능 밑에 있음
     List<Integer> gt10List = new ArrayList<>();
     for (Integer i : list) {
