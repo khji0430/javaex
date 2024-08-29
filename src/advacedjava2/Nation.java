@@ -9,6 +9,7 @@ public class Nation {
     this.name = name; this.type = type;
     this.population = population; this.gdpRank = gdpRank;
   }
+
   public String getName() { return name; }
   public Type getType() { return type; }
   public boolean isIsland() { return getType() != Type.LAND; }
