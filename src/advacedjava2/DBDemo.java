@@ -10,13 +10,13 @@ public class DBDemo {
 
   private static void createNewPerson(Connection conn) throws SQLException {
     Statement stmt = conn.createStatement();
-    String sql = "insert into person (name, phone, email) values ('hong', '010-1111-1111', 'h@a.com')";
+    String sql = "insert into person (name, phone, email) values ('honggi', '010-1221-1111', 'haaa@a.com')";
     int result = stmt.executeUpdate(sql);
     System.out.println(result + "개의 데이터가 추가되었습니다.");
   }
 
   public static Connection makeConnection(){
-    String url = "jdbc:mysql://localhost/javaex?serverTimezone=Asia/Seoul";
+    String url = "jdbc:mysql://localhost:3306/javaex?serverTimezone=Asia/Seoul";
     Connection conn = null;
     try {
       Class.forName("com.mysql.cj.jdbc.Driver");
