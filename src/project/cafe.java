@@ -24,8 +24,26 @@ public class cafe {
       int selectNo = sc.nextInt();
 
       if (selectNo == 1){
-        
+        menuList();
+      } else if (selectNo == 2) {
+
+      } else if (selectNo == 3) {
+
+      }else {
+
       }
     }
   }
+  private static void menuList(){
+    System.out.println("------");
+    System.out.println("커피 메뉴");
+    System.out.println("------");
+    System.out.print("1. 아메리카노");
+    System.out.print("2. 아메리카노");
+    System.out.print("3. 아메리카노");
+    System.out.print("4. 아메리카노");
+    System.out.print("5. 아메리카노");
+    System.out.print("6. 아메리카노");
+  }
+
 }
