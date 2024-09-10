@@ -11,9 +11,9 @@ public class DBDemo1 {
   private static void createNewPerson(Connection conn) throws SQLException {
     String sql = "insert into person (name, phone, email) values (?, ?, ?)";
     PreparedStatement ps = conn.prepareStatement(sql);
-    ps.setString(1, "kim");
-    ps.setString(2, "010-444-4444");
-    ps.setString(3, "k@a.com");
+    ps.setString(1, "ji");
+    ps.setString(2, "010-1111-4444");
+    ps.setString(3, "kaa@a.com");
     int res = ps.executeUpdate();
     if(res == 0) {
       System.out.println("데이터 추가가 정상적으로 진행되지 않았습니다.");
