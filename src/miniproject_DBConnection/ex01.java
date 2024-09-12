@@ -1,4 +1,4 @@
-package miniproject;
+package miniproject_DBConnection;
 
 import java.util.*;
 

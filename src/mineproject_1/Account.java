@@ -1,4 +1,4 @@
-package mineproject;
+package mineproject_1;
 
 public class Account {
   private String seqno;   // 계좌 번호

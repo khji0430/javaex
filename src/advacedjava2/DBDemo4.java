@@ -9,7 +9,7 @@ public class DBDemo4 {
   }
 
   private static void getPersonInfos(Connection conn) throws SQLException {
-    String sql = "select * from person ";
+    String sql = "select * from Product ";
     PreparedStatement ps = conn.prepareStatement(sql);
     ResultSet rs = ps.executeQuery();
     while (rs.next()){
@@ -19,7 +19,7 @@ public class DBDemo4 {
   }
 
   public static Connection makeConnection(){
-    String url = "jdbc:mysql://localhost/javaex?serverTimezone=Asia/Seoul";
+    String url = "jdbc:mysql://localhost/cafe?serverTimezone=Asia/Seoul";
     Connection conn = null;
     try {
       Class.forName("com.mysql.cj.jdbc.Driver");
